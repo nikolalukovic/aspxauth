@@ -45,16 +45,16 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "bignum": "^0.12.5"
+    "bignum": "^0.13.0"
   },
   "devDependencies": {
-    "chai": "^3.5.0",
-    "eslint": "^3.7.0",
-    "eslint-config-leankit": "^3.0.0",
+    "chai": "^4.2.0",
+    "eslint": "^5.12.1",
+    "eslint-config-leankit": "^4.5.0",
     "jscs": "^3.0.7",
-    "mocha": "^3.1.2",
-    "nyc": "^8.3.0",
-    "sinon": "^1.17.6"
+    "mocha": "^5.2.0",
+    "nyc": "^13.1.0",
+    "sinon": "^7.2.3"
   },
   "nyc": {
     "include": "src"

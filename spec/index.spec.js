@@ -1,9 +1,9 @@
 "use strict";
 
-const factory = require( "../src/index" );
-const useFakeTimers = require( "sinon" ).useFakeTimers;
-const chai = require( "chai" );
-chai.should();
+import factory from "../src/index";
+import { should } from "chai";
+import { useFakeTimers } from "sinon";
+should();
 
 describe( "aspxauth#decrypt", () => {
 	let config, token, result, clock, currentTime;
